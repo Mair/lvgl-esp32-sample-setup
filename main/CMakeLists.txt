@@ -1,4 +1,9 @@
-set (SOURCES main.c init_lvgl.c push_me.c)
+set (SOURCES 
+        main.c
+        init_lvgl.c
+        push_me.c
+        sending_task.c
+        )
 
 idf_component_register(SRCS ${SOURCES}
     INCLUDE_DIRS .
